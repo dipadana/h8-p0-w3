@@ -1,3 +1,4 @@
+// Hitung Jumlah Kata
 function hitungJumlahKata(kalimat) {
     var tempKalimat = 0;
     for(var i = 0; i<kalimat.length;i++){
@@ -14,3 +15,4 @@ function hitungJumlahKata(kalimat) {
   console.log(hitungJumlahKata('A song to sing')); // 4
   console.log(hitungJumlahKata('I')); // 1
   console.log(hitungJumlahKata('I believe I can code')); // 5
+  console.log(hitungJumlahKata('Dipa makan nasi goreng di emperan kali')); //7
